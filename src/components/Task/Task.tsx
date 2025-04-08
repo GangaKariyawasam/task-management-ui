@@ -143,11 +143,11 @@ const Task: React.FC = () => {
 
   return (
     <div>
-      <Button type="primary" onClick={handleAddTask}>
+      <Button type="primary" style={{margin: 10}} onClick={handleAddTask}>
         Add New Task
       </Button>
 
-      <DataTable columns={columns} dataSource={dataSource} pagination={false} />
+      <DataTable columns={columns} dataSource={dataSource} pagination={false}/>
 
       <Modal
         title="Add New Task"
