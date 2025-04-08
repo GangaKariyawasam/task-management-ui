@@ -18,9 +18,7 @@ const Login: React.FC = () => {
   };
 
   const onSuccessCreateNewTask = (data: any) =>{
-    
     const token = data.token;
-    alert(JSON.stringify(token))
     localStorage.setItem('token', token);
     navigate("/dashboard")
   }

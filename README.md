@@ -40,7 +40,7 @@ Make sure you have the following installed on your machine:
 
 2. Build the Docker Image
     ```bash
-   $ docker build -t task-management-ui
+   docker buildx build -t task-management-ui .
    ```
 
 3. Run the Docker Container

@@ -58,7 +58,7 @@ const LayoutComponent: React.FC = () => {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          Ant Design ©{new Date().getFullYear()} Created by Ant UED
+          © {new Date().getFullYear()} CoverageX LLC. All rights reserved.
         </Footer>
       </Layout>
     </Layout>
