@@ -20,7 +20,7 @@ const Register: React.FC = () => {
       SuccessAlert(
         <div>
           User created successfully.{" "}
-          <span className={styles.login} onClick={() => navigate("/login")}>
+          <span className={styles.login} onClick={() => navigate("/")}>
             Please login
           </span>
         </div>
@@ -33,7 +33,7 @@ const Register: React.FC = () => {
       const result = await httpClient.post("/auth/register", values);
       handleResponse(result, setError, setSuccess);
       setTimeout(() => {
-        navigate("/login");  
+        navigate("/");  
       }, 2000);
     } catch (error) {
       setError(error);
