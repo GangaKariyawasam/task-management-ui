@@ -1,0 +1,45 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 10px);
+    padding-top: 10px;
+    overflow-x: hidden;
+
+    .alertContainer {
+        padding: 0px 10px;
+ 
+        .alert {
+         margin-bottom: 5px;
+        }
+
+        .login {
+            text-decoration: underline;
+            cursor: pointer;
+            color: blue;
+        }
+    }
+
+    .formContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        .loginInput {
+            width: 350px;
+        }
+    
+        .loginButton {
+            width: 350px;
+            border-radius: 5px;
+        }
+    
+        .forgotPass {
+            color: blue;
+            cursor: pointer;
+    
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

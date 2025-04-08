@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",                         /* Set the JavaScript language version for emitted JavaScript */
+    "jsx": "react-jsx",                         /* This is the key setting to enable JSX in React 17+ */
+    "strict": true,                             /* Enable strict type-checking */
+    "esModuleInterop": true,                    /* Ensure compatibility with commonjs modules */
+    "forceConsistentCasingInFileNames": true,   /* Ensure consistent file name casing */
+    "skipLibCheck": true,                       /* Skip type checking of declaration files */
+    "module": "esnext",                         /* Module code generation */
+    "moduleResolution": "node",                 /* Module resolution strategy */
+    "resolveJsonModule": true,                  /* Allow importing of .json files */
+    "noEmit": true,                             /* Disable emitting output files */
+    "isolatedModules": true,                    /* Treat all files as modules */
+    "allowJs": true                             /* Allow JavaScript files to be part of the program */
+  },
+  "include": ["src"]
+}
